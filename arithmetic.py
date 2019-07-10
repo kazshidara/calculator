@@ -15,11 +15,13 @@ def subtract(num1, num2):
 
 def multiply(num1, num2):
     """Multiply the two inputs together."""
-
+    product = num1 * num2
+    return product
 
 def divide(num1, num2):
     """Divide the first input by the second and return the result."""
-
+    quotient = num1/num2
+    return quotient
 
 def square(num1):
     """Return the square of the input."""
