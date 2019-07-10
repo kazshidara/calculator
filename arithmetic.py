@@ -25,10 +25,13 @@ def divide(num1, num2):
 
 def square(num1):
     """Return the square of the input."""
-
+    squared = num1 **2
+    return squared
 
 def cube(num1):
     """Return the cube of the input."""
+    cubed = num1 ** 3
+    return cubed
 
 
 def power(num1, num2):
