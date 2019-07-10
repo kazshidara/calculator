@@ -36,7 +36,11 @@ def cube(num1):
 
 def power(num1, num2):
     """Raise num1 to the power of num2 and return the value."""
-
+    exponentiated = num1 ** num2
+    return exponentiated
 
 def mod(num1, num2):
     """Return the remainder of num1 / num2."""
+    remainder = num1 % num2
+    return remainder
+    
