@@ -25,15 +25,22 @@ def subtract(nums):
     # difference += nums[0]
     # return difference
 
-def multiply(num1, num2):
+def multiply(nums):
     """Multiply the two inputs together."""
-    product = num1 * num2
+    product = 1
+
+    for num in nums:
+        product *= num
+
     return product
 
-def divide(num1, num2):
+def divide(nums):
     """Divide the first input by the second and return the result."""
-    quotient = num1/num2
+    quotient = nums[0] ** 2
+    for num in nums:
+        quotient /= num
     return quotient
+
 
 def square(num1):
     """Return the square of the input."""
